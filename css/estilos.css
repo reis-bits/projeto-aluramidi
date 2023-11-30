@@ -29,7 +29,7 @@ h1 {
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(3, 1fr);
-  padding: 10px;
+  padding: 15px;
 }
 
 .tecla {
@@ -45,6 +45,20 @@ h1 {
   text-align: center;
   width: 120px;
 }
+
+/*.tecla:hover {
+  background-color: var(--branca);
+  border-radius: 30px;
+  box-shadow: 3px 3px 0 var(--cinza);
+  color: var(--vermelha);
+  cursor: pointer;
+  height: 135px;
+  font-size: 1.75em;
+  font-weight: bold;
+  line-height: 120px;
+  text-align: center;
+  width: 135px;
+}*/
 
 .tecla.ativa,
 .tecla:active {
